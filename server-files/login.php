@@ -8,9 +8,9 @@ ini_set('display_errors', 1);
 
 // Database connection details
 $servername = "localhost";
-$username = "tester"; // Replace with your database username
-$password = "i7hvs8-20201130-WB1"; // Replace with your database password
-$dbname = "user_db";
+$username = "USERNAME"; // Replace with your database username
+$password = "YOUR PASSWORD"; // Replace with your database password
+$dbname = "user_db_CREATED";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
